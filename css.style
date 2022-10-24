@@ -1,0 +1,28 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div h1 {
+    color:red;
+}
+div input {
+    width: 450px;
+    height: 20px;
+    outline:none;
+}
+div button {
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    background: lightblue;
+    color:white;
+    border-radius: 8px;
+    border:none;
+    cursor:pointer;
+}
